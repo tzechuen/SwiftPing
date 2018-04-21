@@ -76,7 +76,7 @@ public class SwiftPing: NSObject {
     private var currentSequenceNumber:UInt64 = 0
     private var currentStartDate:Date?
     
-    private var timeoutBlock:((Void) -> Void)?
+    private var timeoutBlock:(() -> Void)?
     
     private var currentQueue:DispatchQueue?
     
